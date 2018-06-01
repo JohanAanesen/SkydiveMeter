@@ -35,7 +35,6 @@ public class HomeActivity extends AppCompatActivity implements SensorEventListen
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mPressure = mSensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
-        mSensorManager.getAltitude(SensorManager.)
     }
 
 
@@ -54,7 +53,9 @@ public class HomeActivity extends AppCompatActivity implements SensorEventListen
         pressureText3.setText(String.format("%f", meter) + " meter");
         // Do something with this sensor data.
 
-        altiText.setText(Integer.toString(test));
+        //altiText.setText(Integer.toString(test));
+
+        altiText.setText(Float.toString(mSensorManager.getAltitude(SensorManager.PRESSURE_STANDARD_ATMOSPHERE, millibars_of_pressure)));
         test++;
     }
 
