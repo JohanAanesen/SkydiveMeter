@@ -106,7 +106,7 @@ public class HomeActivity extends AppCompatActivity implements SensorEventListen
             Double altitude = Math.floor(feet - baseLineFeet);
             altiText.setText(Double.toString(altitude) + " ft");
 
-            if(sessionKey != null) {
+            if(sessionKey != null && (airCounter % 50) == 0) {
                 myRef.child(sessionKey).child(Integer.toString(airCounter / 5)).setValue(altitude);
             }
         }
