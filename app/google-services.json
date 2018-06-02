@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "641392494298",
+    "firebase_url": "https://skydivemeter.firebaseio.com",
+    "project_id": "skydivemeter",
+    "storage_bucket": "skydivemeter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641392494298:android:09a5c0528de6e40a",
+        "android_client_info": {
+          "package_name": "net.eksde.skydivemeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641392494298-1eanfld32opk4j1vpfku8enf7qnn580n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.eksde.skydivemeter",
+            "certificate_hash": "80be21d661caf37da1e33fbe679cdddf56a61fc5"
+          }
+        },
+        {
+          "client_id": "641392494298-8l7gpr1gqucptpv1vnt0ibducbddlp5q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "641392494298-8l7gpr1gqucptpv1vnt0ibducbddlp5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1FyPFrdTGlfjANNO6kMkcdkgW7Y0vxCo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641392494298-8l7gpr1gqucptpv1vnt0ibducbddlp5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
